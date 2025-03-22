@@ -1,0 +1,12 @@
+line 34 assets폴더가 main.py와 같은 폴더에 있어야 함
+패키지, 폰트 설치 필수
+실행전 .env 파일 생성 후
+email = "자신이원하는 이메일"
+password = "자기 메일 패스워드"
+
+설치 필수 패키지
+pip install -r requirements.txt
+
+폰트
+맑은 고딕
+배달의민족 한나체 Pro
