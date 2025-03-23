@@ -15,8 +15,20 @@
 
 
 ### ⚙개발 환경
-- `Python`
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=white)
 
+## 📂파일 구조
+### Lost112_Notification/
+├── assets/<br/>
+│   ├── frame0/<br/>
+│   │   ├── main_icon.ico<br/>
+│   │   └── ...<br/>
+├── .gitignore<br/>
+├── README.md<br/>
+├── main.py<br/>
+├── main.spec<br/>
+├── requirements.txt<br/>
+└── 주의사항.txt
 
 ## 📌프로그램 설명
 이 프로그램은 Lost112 웹사이트에 등록된 분실물을 자동으로 모니터링하고, 사용자가 설정한 조건에 맞는 분실물이 발견되면 이메일로 알림을 보냅니다. 사용자가 분실물을 쉽게 찾을 수 있도록 도와주는 프로그램입니다.
@@ -41,12 +53,9 @@
 
 ### 기술 스택
 
-Tkinter: GUI 구현
-
-Selenium: 웹 스크래핑
-
-BeautifulSoup: HTML 파싱
-
+Tkinter: GUI 구현<br/>
+Selenium: 웹 스크래핑<br/>
+BeautifulSoup: HTML 파싱<br/>
 smtplib: 이메일 전송
 
 
