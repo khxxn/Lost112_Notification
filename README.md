@@ -59,9 +59,9 @@ BeautifulSoup: HTML 파싱<br/>
 smtplib: 이메일 전송
 
 
-![image](https://github.com/user-attachments/assets/07baa606-3de8-4177-a653-550a2f9ea8e9)
+![Image](https://github.com/user-attachments/assets/671f492f-1368-4178-a04e-d9955ce4f093)
 ![image](https://github.com/user-attachments/assets/d7fc8657-af09-4645-b97e-a9271f9890b2)
-![image](https://github.com/user-attachments/assets/da4ba738-eafd-4f32-91c3-5bf161161eb1)
+![Image](https://github.com/user-attachments/assets/7be8f41e-60f2-4fba-9ea4-a96e89465ccd)
 ![image](https://github.com/user-attachments/assets/e33226eb-486e-475e-9f23-b0bfeafedb53)
 
 정보 입력 -> 카테고리 선택 -> 웹 스크래핑 -> 메일 발송
