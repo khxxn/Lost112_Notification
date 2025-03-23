@@ -5,6 +5,7 @@ Lost 112 알림이
 '''
 
 from pathlib import Path
+import sys
 from tkinter import *
 import tkinter.messagebox as msgbox
 import tkinter.ttk as ttk
@@ -22,6 +23,14 @@ import os
 
 #암호화 실행전 .env 파일 생성 필수
 from dotenv import load_dotenv
+#PyInstaller을 위한 경로 설정 함수
+def resource_path(relative_path):
+    try:
+        base_path = sys._MEIPASS
+    except Exception:
+        base_path = os.path.abspath(".")
+
+    return os.path.join(base_path, relative_path)
 
 load_dotenv()
 email = os.environ.get("email")
@@ -45,7 +54,7 @@ ASSETS_PATH = OUTPUT_PATH / "assets" / "frame0"
 
 # 사진 불러오는 함수
 def relative_to_assets(path: str) -> Path:
-    return ASSETS_PATH / Path(path)
+    return resource_path(ASSETS_PATH / Path(path))
 #===================================================================
 #===================================================================
 
@@ -54,7 +63,7 @@ l=[] #메일 중복 방지하기 위해 이미 보낸 습득물 관리번호 저
 
 
 window = Tk()
-window.title("Lost 112 알림이")
+window.title("Lost 112 Notification")
 main_icon = PhotoImage(file=relative_to_assets("main_icon.png")) #메인아이콘 변경
 window.iconphoto(False, main_icon)
 #===================================================================
